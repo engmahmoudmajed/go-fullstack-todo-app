@@ -6,3 +6,34 @@ GET http://localhost:4000/
 
 GET http://localhost:4000/api/v1
 
+### return all todos 
+GET http://localhost:4000/api/v1/todos
+
+
+### Create a New Todo
+POST http://localhost:4000/api/v1/todos
+Content-Type: application/json
+
+{
+    "body": "Learn Fiber v3 and Go"
+}
+
+### Test Validation (Empty Body)
+POST http://localhost:4000/api/v1/todos
+Content-Type: application/json
+
+{
+    "body": ""
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+# Binary / Executables
+bin/
+tmp/
+out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go specific
+go.sum
+# (Note: Some keep go.sum, but never ignore go.mod)
+
+# Air (Live Reload)
+.air.toml
+# (Optional: some prefer to keep this if the team uses Air, 
+# but ignore the /tmp folder Air creates)
+/tmp
+
+# Dependency directories (Go doesn't usually need this, but good practice)
+vendor/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+*.env
